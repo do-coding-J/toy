@@ -1,0 +1,322 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# ����ũ ����Ÿ���̽�, Sat May 07 11:03:37 2022
+�� ǥ��
+# ����
+
+# �ڵ�
+<D = $(patsubst %/,%,$(dir $<))
+# �ڵ�
+?F = $(notdir $?)
+# ȯ��
+CUDA_PATH_V11_6 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+# ����ũ����
+MAKEFLAGS = Rrqp
+# ȯ��
+VSCODE_LOG_NATIVE = false
+# �ڵ�
+?D = $(patsubst %/,%,$(dir $?))
+# �ڵ�
+@D = $(patsubst %/,%,$(dir $@))
+# ȯ��
+HOMEDRIVE = C:
+# �ڵ�
+@F = $(notdir $@)
+# �ڵ�
+^D = $(patsubst %/,%,$(dir $^))
+# ����ũ����
+CURDIR := c:/drive/toy
+# �⺻��
+SHELL := sh.exe
+# ȯ��
+WINDIR = C:\WINDOWS
+# ȯ��
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"aa52a0d86289f9a4f017706e4b981fc7.ko","_translationsConfigFile":"C:\\Users\\ghks9\\AppData\\Roaming\\Code\\clp\\aa52a0d86289f9a4f017706e4b981fc7.ko\\tcf.json","_cacheRoot":"C:\\Users\\ghks9\\AppData\\Roaming\\Code\\clp\\aa52a0d86289f9a4f017706e4b981fc7.ko","_resolvedLanguagePackCoreLocation":"C:\\Users\\ghks9\\AppData\\Roaming\\Code\\clp\\aa52a0d86289f9a4f017706e4b981fc7.ko\\57fd6d0195bb9b9d1b49f6da5db789060795de47","_corruptedFile":"C:\\Users\\ghks9\\AppData\\Roaming\\Code\\clp\\aa52a0d86289f9a4f017706e4b981fc7.ko\\corrupted.info","_languagePackSupport":true}
+# ȯ��
+ONEDRIVE = C:\Users\ghks9\OneDrive
+# ȯ��
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# ����ũ����
+MAKEFILE_LIST := 
+# ȯ��
+TMP = C:\Users\ghks9\AppData\Local\Temp
+# ȯ��
+VSCODE_VERBOSE_LOGGING = true
+# ȯ��
+PROGRAMW6432 = C:\Program Files
+# ȯ��
+PROGRAMDATA = C:\ProgramData
+# ȯ��
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e73a8e71-82c8-4c38-bfb3-0ac5313f09f7-sock
+# ȯ��
+VSCODE_CWD = C:\Users\ghks9\AppData\Local\Programs\Microsoft VS Code
+# ȯ��
+OPENCV_DIR = C:\opencv\build\install
+# ȯ��
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\mingw64\bin;C:\MinGW\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git LFS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\usbipd-win\;C:\opencv\build\install\x64\vc16\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\ghks9\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ghks9\AppData\Local\Programs\Python\Python310\;C:\Users\ghks9\AppData\Local\Microsoft\WindowsApps;C:\Users\ghks9\AppData\Local\Programs\Microsoft VS Code\bin;C:\mingw64\bin;C:\MinGW\bin;C:\Program Files\CMake\bin;C:\opencv\build\install\build\x64\vc15\bin
+# ȯ��
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ȯ��
+ZES_ENABLE_SYSMAN = 1
+# ȯ��
+GIT_LFS_PATH = C:\Program Files\Git LFS
+# ȯ��
+PROCESSOR_ARCHITECTURE = x86
+# ȯ��
+USERPROFILE = C:\Users\ghks9
+# ȯ��
+ALLUSERSPROFILE = C:\ProgramData
+# ȯ��
+ONEAPI_ROOT = C:\Program Files (x86)\Intel\oneAPI\
+# ȯ��
+VSCODE_LOG_STACK = false
+# ȯ��
+NUMBER_OF_PROCESSORS = 8
+# ȯ��
+ELECTRON_RUN_AS_NODE = 1
+# �⺻��
+.FEATURES := target-specific order-only second-expansion else-if archives
+# ȯ��
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# �ڵ�
+%F = $(notdir $%)
+# �ڵ�
+*F = $(notdir $*)
+# ȯ��
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_54820_QVJBMLLDUIZUJMPT
+# ȯ��
+VSCODE_PIPE_LOGGING = true
+# ȯ��
+COMPUTERNAME = JJ
+# ȯ��
+PROGRAMFILES = C:\Program Files (x86)
+# ȯ��
+TBB_DIR = C:\lib\oneapi-tbb-2021.5.0
+# ȯ��
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ȯ��
+ASL.LOG = Destination=file
+# ȯ��
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ȯ��
+USERNAME = ghks9
+# ȯ��
+PUBLIC = C:\Users\Public
+# ȯ��
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ȯ��
+VSCODE_CODE_CACHE_PATH = C:\Users\ghks9\AppData\Roaming\Code\CachedData\57fd6d0195bb9b9d1b49f6da5db789060795de47
+# ȯ��
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# ȯ��
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ȯ��
+LOGONSERVER = \\JJ
+# ȯ��
+ONEDRIVECONSUMER = C:\Users\ghks9\OneDrive
+# ȯ��
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ȯ��
+USERDOMAIN = JJ
+# �⺻��
+MAKE = $(MAKE_COMMAND)
+# �⺻��
+MAKECMDGOALS := all
+# �⺻��
+MAKE_VERSION := 3.81
+# ����ũ����
+.DEFAULT_GOAL := 
+# ȯ��
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �ڵ�
+%D = $(patsubst %/,%,$(dir $%))
+# ȯ��
+LOCALAPPDATA = C:\Users\ghks9\AppData\Local
+# ȯ��
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# �⺻��
+MAKE_COMMAND := make.exe
+# ȯ��
+PROCESSOR_ARCHITEW6432 = AMD64
+# �⺻��
+.VARIABLES := 
+# ȯ��
+EIGEN_DIR = C:\Program Files (x86)\Eigen3
+# ȯ��
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+# ȯ��
+OS = Windows_NT
+# ȯ��
+VSCODE_IPC_HOOK = \\.\pipe\d39b7c50b508f1b1c5fa80ba43e493df-1.67.0-main-sock
+# ȯ��
+HOMEPATH = \Users\ghks9
+# ȯ��
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ȯ��
+PROMPT = $P$G
+# ȯ��
+MFLAGS = -Rrqp
+# �ڵ�
+*D = $(patsubst %/,%,$(dir $*))
+# ȯ��
+SYSTEMROOT = C:\WINDOWS
+# �ڵ�
++D = $(patsubst %/,%,$(dir $+))
+# �ڵ�
++F = $(notdir $+)
+# ȯ��
+VS2019INSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise
+# ȯ��
+APPDATA = C:\Users\ghks9\AppData\Roaming
+# ȯ��
+TEMP = C:\Users\ghks9\AppData\Local\Temp
+# ȯ��
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# �⺻��
+MAKEFILES := 
+# �ڵ�
+<F = $(notdir $<)
+# ȯ��
+LC_ALL = C
+# �ڵ�
+^F = $(notdir $^)
+# ȯ��
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+# �⺻��
+SUFFIXES := 
+# ȯ��
+SYSTEMDRIVE = C:
+# ȯ��
+SESSIONNAME = Console
+# ȯ��
+PROCESSOR_REVISION = 8c01
+# ȯ��
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# ȯ��
+MAKELEVEL := 0
+# ȯ��
+LANG = C
+# ȯ��
+PROCESSOR_LEVEL = 6
+# ȯ��
+VSCODE_PID = 54820
+# ȯ��
+USERDOMAIN_ROAMINGPROFILE = JJ
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=10/116=9%
+
+# Pattern-specific Variable Values
+
+# ������ ���� ���� ������ �����ϴ�.
+
+# ���丮
+
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin (Ű C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin, ����ð� 1649854720): 52 ����, 0�� �Ұ���.
+# C:\Program Files\MATLAB\R2021b\runtime\win64 (Ű C:/Program Files/MATLAB/R2021b/runtime/win64, ����ð� 1641828709): 9 ����, 0�� �Ұ���.
+# C:\opencv\build\install\x64\vc16\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\ (Ű C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.1.1/, ����ð� 1648561258): 12 ����, 0�� �Ұ���.
+# C:\windows\System32\WindowsPowerShell\v1.0\ (Ű C:/windows/System32/WindowsPowerShell/v1.0/, ����ð� 1635211082): 32 ����, 0�� �Ұ���.
+# C:\windows\System32\Wbem (Ű C:/windows/System32/Wbem, ����ð� 1642179305): 155 ����, 0�� �Ұ���.
+# . (Ű c:/drive/toy, ����ð� 1651889016): 4 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility (Ű C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility, ����ð� 1651042973): 12 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (Ű C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����ð� 1623462486): 10 ����, 0�� �Ұ���.
+# C:\Users\ghks9\AppData\Local\Programs\Python\Python310\ (Ű C:/Users/ghks9/AppData/Local/Programs/Python/Python310/, ����ð� 1643949357): 19 ����, 0�� �Ұ���.
+# C:\Users\ghks9\AppData\Local\Programs\Python\Python310\Scripts\ (Ű C:/Users/ghks9/AppData/Local/Programs/Python/Python310/Scripts/, ����ð� 1649058868): 28 ����, 0�� �Ұ���.
+# C:\MinGW\bin (Ű C:/MinGW/bin, ����ð� 1631683700): 127 ����, 0�� �Ұ���.
+# C:\Users\ghks9\AppData\Local\Programs\Microsoft VS Code\bin (Ű C:/Users/ghks9/AppData/Local/Programs/Microsoft VS Code/bin, ����ð� 1651809293): 4 ����, 0�� �Ұ���.
+# C:\Program Files\usbipd-win\ (Ű C:/Program Files/usbipd-win/, ����ð� 1649682277): 152 ����, 0�� �Ұ���.
+# C:\windows\System32\OpenSSH\: stat�� �� �� �������ϴ�.
+# C:\Program Files\PuTTY\ (Ű C:/Program Files/PuTTY/, ����ð� 1650622560): 12 ����, 0�� �Ұ���.
+# C:\mingw64\bin (Ű C:/mingw64/bin, ����ð� 1501421596): 59 ����, 0�� �Ұ���.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (Ű C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, ����ð� 1631691589): 4 ����, 0�� �Ұ���.
+# C:\windows (Ű C:/windows, ����ð� 1645170058): 141 ����, 0�� �Ұ���.
+# C:\Program Files\MATLAB\R2018a\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin (Ű C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/bin, ����ð� 1651809331): 33 ����, 0�� �Ұ���.
+# C:\Program Files\MATLAB\R2021b\bin (Ű C:/Program Files/MATLAB/R2021b/bin, ����ð� 1641826459): 19 ����, 0�� �Ұ���.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp (Ű C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp, ����ð� 1648561537): 14 ����, 0�� �Ұ���.
+# C:\Users\ghks9\AppData\Local\Microsoft\WindowsApps (Ű C:/Users/ghks9/AppData/Local/Microsoft/WindowsApps, ����ð� 1651887031): 36 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\ (Ű C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/, ����ð� 1646299621): 401 ����, 0�� �Ұ���.
+# C:\Program Files\Git\cmd (Ű C:/Program Files/Git/cmd, ����ð� 1631681115): 8 ����, 0�� �Ұ���.
+# C:\windows\system32 (Ű C:/windows/system32, ����ð� 1651569062): 3056 ����, 0�� �Ұ���.
+# C:\Program Files\Git LFS (Ű C:/Program Files/Git LFS, ����ð� 1632020577): 5 ����, 0�� �Ұ���.
+# C:\opencv\build\install\build\x64\vc15\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files\CMake\bin (Ű C:/Program Files/CMake/bin, ����ð� 1648559463): 7 ����, 0�� �Ұ���.
+# C:\Program Files\MATLAB\R2018a\runtime\win64: stat�� �� �� �������ϴ�.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (Ű C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, ����ð� 1623462497): 5 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\GnuWin32\bin (Ű C:/Program Files (x86)/GnuWin32/bin, ����ð� 1649321504): 5 ����, 0�� �Ұ���.
+
+# 4421 ����, 0�� impossibilities in 33 directories.
+
+# Implicit Rules
+
+# ������ ��Ģ ����.
+
+# ����
+
+# Ÿ���� �ƴ�:
+all:
+#  ������ Ÿ��.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.DEFAULT:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ſ� ������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.SUFFIXES:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ſ� ������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Ž�� ���
+
+# `vpath' Ž�� ��ΰ� ����.
+
+# �Ϲ����� (`VPATH' ����) Ž�� ��ΰ� ����.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# ����ũ ����Ÿ ���̽� ��ħ, Sat May 07 11:03:37 2022
+����
+ 
+make.exe: *** Ÿ�� `all'�� ���� ��Ģ�� ����.  ����.
+
