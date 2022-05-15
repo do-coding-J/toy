@@ -1,0 +1,6 @@
+make all --dry-run --keep-going --print-directory
+make: Entering directory '/home/jj/toy/cv/cpp/cv1'
+make: Leaving directory '/home/jj/toy/cv/cpp/cv1'
+ 
+make: *** No rule to make target 'all'.
+
